@@ -1,11 +1,11 @@
 import { ApolloServer, gql } from 'apollo-server';
 
 const users = [
-    {name: "Pluem", sex : "M"},
-    {name: "B", sex: "?"},
-    {name: "C", sex: "?"},
-    {name: "D", sex: "?"},
-    {name: "E", sex: "?"},
+    {name: "Pluem", sex : "Male",id : "62020932"},
+    {name: "LUES", sex: "Male",id : "?"},
+    {name: "Tae", sex: "Male",id : "?"},
+    {name: "Aek", sex: "Male",id : "62022901"},
+    {name: "AUMTERDUM", sex: "Male",id : "62021067"},
   ];
 //schema
 const typeDefs = gql`
@@ -18,6 +18,7 @@ type Query {
  type User {
     name : String
     sex : String
+    id : String
   }
  `;
 //resolver
