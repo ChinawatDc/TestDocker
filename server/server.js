@@ -2,10 +2,10 @@ import { ApolloServer, gql } from 'apollo-server';
 
 const users = [
     {name: "Pluem", sex : "M"},
-    {name: "Luis", sex: "M"},
-    {name: "Aum", sex: "M"},
-    {name: "Tae", sex: "M"},
-    {name: "EAK", sex: "M"},
+    {name: "B", sex: "?"},
+    {name: "C", sex: "?"},
+    {name: "D", sex: "?"},
+    {name: "E", sex: "?"},
   ];
 //schema
 const typeDefs = gql`
