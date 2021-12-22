@@ -5,7 +5,7 @@ const users = [
     {name: "LUES", sex: "Male",id : "?"},
     {name: "Tae", sex: "Male",id : "?"},
     {name: "Aek", sex: "Male",id : "62022901"},
-    {name: "E", sex: "?",id : "?"},
+    {name: "AUMTERDUM", sex: "Male",id : "62021067"},
   ];
 //schema
 const typeDefs = gql`
