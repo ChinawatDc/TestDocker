@@ -4,7 +4,7 @@ const users = [
     {name: "Pluem", sex : "Male",id : "62020932"},
     {name: "LUES", sex: "Male",id : "?"},
     {name: "Tae", sex: "Male",id : "?"},
-    {name: "D", sex: "?",id : "?"},
+    {name: "AUMlnwza2543007", sex: "male kub",id : "62021067"},
     {name: "E", sex: "?",id : "?"},
   ];
 //schema
