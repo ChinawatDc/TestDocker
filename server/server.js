@@ -2,7 +2,7 @@ import { ApolloServer, gql } from 'apollo-server';
 
 const users = [
     {name: "Pluem", sex : "Male",id : "62020932"},
-    {name: "LUES", sex: "Male",id : "?"},
+    {name: "LUES", sex: "Male",id : "62020943"},
     {name: "Tae", sex: "Male",id : "?"},
     {name: "Aek", sex: "Male",id : "62022901"},
     {name: "AUMTERDUM", sex: "Male",id : "62021067"},
