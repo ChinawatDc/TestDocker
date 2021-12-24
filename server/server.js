@@ -1,20 +1,11 @@
 import { ApolloServer, gql } from 'apollo-server';
 
-<<<<<<< HEAD
 const user = [
     {name: "Pluem", sex : "Male", id: 0},
     {name: "LUES", sex: "Male", id: 1},
     {name: "Tae", sex: "Male", id: 2},
     {name: "Aek", sex: "Male", id: 3},
     {name: "AUMTERDUM", sex: "Male", id: 4},
-=======
-const users = [
-    {name: "Pluem", sex : "Male",id : "62020932"},
-    {name: "LUES", sex: "Male",id : "62020943"},
-    {name: "Tae", sex: "Male",id : "62020853"},
-    {name: "Aek", sex: "Male",id : "62022901"},
-    {name: "AUMTERDUM", sex: "Male",id : "62021067"},
->>>>>>> 0291f0072ce1a02ac793588249d335d712e23295
   ];
 const books = [
   { title: "The Lord",UserID: 3,id: 0},
