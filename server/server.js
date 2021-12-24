@@ -50,6 +50,7 @@ const typeDefs = gql`
     type Mutation {
         addUser(name: String, sex: String): User
         createUser(name: String, password: String): User
+        loginUser(name: String, password: String): String
     }
 `;
 
@@ -91,6 +92,14 @@ const resolvers = {
             const hashPassword = bcrypt.hashSync(password, 10);
             user.push({name: name, password: hashPassword});
             return {name: name, password: hashPassword};
+        },
+        loginUser:  (parent, args, context) => {
+            const user = user.filter(user => user.name === args.name);
+            const correct = bcrypt.compareSync(user.password, args.password);
+            if(correct){
+                return "Correct";
+            }
+            return "Not Correct";
         }
     }
 };
