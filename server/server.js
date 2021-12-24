@@ -89,8 +89,8 @@ const resolvers = {
         createUser: (parent, args, context, info) => {
             const {name, password}=args;
             const hashPassword = bcrypt.hashSync(password, 10);
-            user.push({name: name, password: password});
-            return {name: name, password: password};
+            user.push({name: name, password: hashPassword});
+            return {name: name, password: hashPassword};
         }
     }
 };
