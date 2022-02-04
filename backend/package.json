@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "type": "module",
   "scripts": {
     "start": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,14 +11,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "apollo-server": "^3.5.0",
-    "apollo-server-core": "^3.6.2",
-    "apollo-server-express": "^3.6.2",
-    "bcryptjs": "^2.4.3",
-    "express": "^4.17.2",
-    "express-jwt": "^6.1.0",
-    "graphql": "^15.8.0",
-    "jsonwebtoken": "^8.5.1",
     "pg": "^8.7.1"
   }
 }
